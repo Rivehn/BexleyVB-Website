@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Bexley Volleyball Club</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FE012E4E-0A49-874C-8779-986D2316B90D/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/B83D2094-CC4B-C94A-9F74-C5E45AF246AC/abn/main.css"/>
+</head>
+  <style>  /* Gives information about the style of the document */
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+  body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+  }
+
+  /* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('/w3images/parallax1.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("/w3images/parallax2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+
+  <body>
+
+    <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button w3-hover-grey"><i class="fa fa-home"></i> BVC</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#photos" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-picture-o"></i> PHOTOS</a>
+    <a href="#news" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-envelope"></i> NEWS</a>
+    <a href="#teams" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-male"></i> TEAMS</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-user"></i> ABOUT US</a>
+  <!--  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+       <i class="fa fa-search"></i> -->
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+ <img src="images/Aatrox-by-NAM-League-of-Legends-Artwork-Wallpaper-lol.jpg" class="w3-round w3-image w3-opacity center" alt="O///O H-h-hentai..."></img>
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xxxlarge w3-wide w3-animate-opacity"><font size ="7">RIVEHN<span class="w3-hide-small"></span>
+
+  </div>
+</div>
+
+<a href="bexley-vc-brochure.pdf">Bexley VC Brochure 2020</a> <!-- Need to change this link later when publishing the website-->
+  </body>
+</html>
