@@ -3,10 +3,25 @@
   <head>
     <meta charset="utf-8">
     <meta name="description" content="Follow us on Facebook! More information contact Val.">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--controls the users windows, for looking at webpage in mobile or tablet screen-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Catamaran">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FE012E4E-0A49-874C-8779-986D2316B90D/main.js" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/B83D2094-CC4B-C94A-9F74-C5E45AF246AC/abn/main.css"/>
     </head>
+    <style>  /* Gives information about the style of the document */
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Catamaran", sans-serif;}
+    body, html {
+      height: 100%;
+      color: #171717;
+      line-height: 1.8;
+    }
+    </style>
     <body>
-      <h1>Follow us on <i>Facebook!</i></h1>
-      <a href="https://www.facebook.com/groups/BexleyVolleyballclub">facebook_icon</a>
+
+      <div><h1><center>Follow us on <i>Facebook!</i></h1></div>
+      <div><a href="https://www.facebook.com/groups/BexleyVolleyballclub">facebook_icon</a></div>
+      <div><p>To stay completely updated, join our Facebook Group and talk to our Coach: Val Grisenkov. We hope to see you take part!</p>
       <h2>CONTACT</h2>
       <h3>Name</h3>
       <p>Val Grisenkov</p>
@@ -17,8 +32,32 @@
       </body>
 
       <nav>
-        <a href="index.html" class="w3-bar-item w3-button w3-hover-grey"><i class="fa fa-home"></i> BVC</a>
-
+        <div class="w3-top">
+          <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-grey"><i class="fa fa-home"></i> BVC</a>
+            <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="photos.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-picture-o"></i> PHOTOS</a>
+            <a href="news.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-envelope"></i> NEWS</a>
+            <a href="teams.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-male"></i> TEAMS</a>
+            <a href="aboutus.html" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-grey"><i class="fa fa-user"></i> ABOUT US</a>
+            <!--  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+                 <i class="fa fa-search"></i> -->
+              </a>
+            </div>
+            <!-- Navbar on small screens -->
+            <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+              <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> CONTACT</a>
+              <a href="photos.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> PHOTOS</a>
+              <a href="news.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> NEWS</a>
+              <a href="teams.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> TEAMS</a>
+              <a href="aboutus.html" class="w3-bar-item w3-button" onclick="toggleFunction()"> ABOUT US</a>
+            </div>
+          </div>
       </nav>
+      <footer>
+      </footer>
 
 </html>
